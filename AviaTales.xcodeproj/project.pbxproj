@@ -7,10 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233956AE2558970400231085 /* AviaTalesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233956AD2558970400231085 /* AviaTalesError.swift */; };
+		233956B22558AA6E00231085 /* DescriptionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233956B12558AA6E00231085 /* DescriptionLabel.swift */; };
+		233956B62558B0EF00231085 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233956B52558B0EF00231085 /* UIImage+Extensions.swift */; };
+		233956BC2558B6E800231085 /* UrlFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233956BB2558B6E800231085 /* UrlFactory.swift */; };
+		2359951F2556097900EF946B /* DestinationPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359951E2556097900EF946B /* DestinationPickerViewController.swift */; };
+		23599527255615EF00EF946B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23599526255615EF00EF946B /* NetworkService.swift */; };
+		2359952D25561F0A00EF946B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359952C25561F0A00EF946B /* String+Extensions.swift */; };
+		2359954A255623B900EF946B /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23599549255623B900EF946B /* CGFloat+Extensions.swift */; };
+		23599554255629A800EF946B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23599553255629A800EF946B /* MapViewController.swift */; };
+		2359955A255629FC00EF946B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23599559255629FC00EF946B /* BaseViewController.swift */; };
+		2359957525574A1D00EF946B /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359957425574A1D00EF946B /* Presentable.swift */; };
+		2359959325574D7000EF946B /* ParameterClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359959225574D7000EF946B /* ParameterClosure.swift */; };
+		2359959725574E3300EF946B /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359959625574E3300EF946B /* ModuleFactory.swift */; };
+		235995A42557528500EF946B /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235995A32557528500EF946B /* BorderedButton.swift */; };
+		235995CA2557658600EF946B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235995C92557658600EF946B /* Location.swift */; };
+		235995CE2557659F00EF946B /* AirportModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235995CD2557659F00EF946B /* AirportModel.swift */; };
+		235995DA2557883E00EF946B /* AirportAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235995D92557883E00EF946B /* AirportAnnotation.swift */; };
+		235995DE255796E400EF946B /* AirportMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235995DD255796E400EF946B /* AirportMarkerView.swift */; };
+		235995E425584F1000EF946B /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235995E325584F1000EF946B /* MapViewModel.swift */; };
+		235995F125584F4500EF946B /* DestinationPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235995F025584F4500EF946B /* DestinationPickerViewModel.swift */; };
+		235995FC2558738B00EF946B /* BorderedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235995FB2558738B00EF946B /* BorderedTextField.swift */; };
 		23BED2812555FC4D0072AC38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BED2802555FC4D0072AC38 /* AppDelegate.swift */; };
-		23BED2832555FC4D0072AC38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BED2822555FC4D0072AC38 /* SceneDelegate.swift */; };
-		23BED2852555FC4D0072AC38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BED2842555FC4D0072AC38 /* ViewController.swift */; };
-		23BED2882555FC4D0072AC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BED2862555FC4D0072AC38 /* Main.storyboard */; };
+		23BED2852555FC4D0072AC38 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BED2842555FC4D0072AC38 /* ApplicationCoordinator.swift */; };
 		23BED28A2555FC520072AC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BED2892555FC520072AC38 /* Assets.xcassets */; };
 		23BED28D2555FC520072AC38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BED28B2555FC520072AC38 /* LaunchScreen.storyboard */; };
 		23BED2982555FC520072AC38 /* AviaTalesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BED2972555FC520072AC38 /* AviaTalesTests.swift */; };
@@ -27,11 +46,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		233956AD2558970400231085 /* AviaTalesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviaTalesError.swift; sourceTree = "<group>"; };
+		233956B12558AA6E00231085 /* DescriptionLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionLabel.swift; sourceTree = "<group>"; };
+		233956B52558B0EF00231085 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		233956BB2558B6E800231085 /* UrlFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlFactory.swift; sourceTree = "<group>"; };
+		2359951E2556097900EF946B /* DestinationPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationPickerViewController.swift; sourceTree = "<group>"; };
+		23599526255615EF00EF946B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		2359952C25561F0A00EF946B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		23599549255623B900EF946B /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		23599553255629A800EF946B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		23599559255629FC00EF946B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2359957425574A1D00EF946B /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		2359959225574D7000EF946B /* ParameterClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterClosure.swift; sourceTree = "<group>"; };
+		2359959625574E3300EF946B /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		235995A32557528500EF946B /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		235995C92557658600EF946B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		235995CD2557659F00EF946B /* AirportModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportModel.swift; sourceTree = "<group>"; };
+		235995D92557883E00EF946B /* AirportAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportAnnotation.swift; sourceTree = "<group>"; };
+		235995DD255796E400EF946B /* AirportMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportMarkerView.swift; sourceTree = "<group>"; };
+		235995E325584F1000EF946B /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		235995F025584F4500EF946B /* DestinationPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationPickerViewModel.swift; sourceTree = "<group>"; };
+		235995FB2558738B00EF946B /* BorderedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedTextField.swift; sourceTree = "<group>"; };
 		23BED27D2555FC4D0072AC38 /* AviaTales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AviaTales.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BED2802555FC4D0072AC38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23BED2822555FC4D0072AC38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		23BED2842555FC4D0072AC38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		23BED2872555FC4D0072AC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23BED2842555FC4D0072AC38 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		23BED2892555FC520072AC38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23BED28C2555FC520072AC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23BED28E2555FC520072AC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +96,141 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		233956BF2558B87200231085 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				23BED2802555FC4D0072AC38 /* AppDelegate.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		235995682557490300EF946B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2359952C25561F0A00EF946B /* String+Extensions.swift */,
+				23599549255623B900EF946B /* CGFloat+Extensions.swift */,
+				233956B52558B0EF00231085 /* UIImage+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		23599571255749E600EF946B /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				23BED2842555FC4D0072AC38 /* ApplicationCoordinator.swift */,
+				2359957425574A1D00EF946B /* Presentable.swift */,
+				2359959625574E3300EF946B /* ModuleFactory.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		2359958C25574CDD00EF946B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				235995B1255759F100EF946B /* Base */,
+				235995AE255759E900EF946B /* DestinationPicker */,
+				235995B4255759F800EF946B /* Map */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2359958F25574D0600EF946B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				23599526255615EF00EF946B /* NetworkService.swift */,
+				233956BB2558B6E800231085 /* UrlFactory.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		235995A72557528F00EF946B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				233956B12558AA6E00231085 /* DescriptionLabel.swift */,
+				235995FB2558738B00EF946B /* BorderedTextField.swift */,
+				235995A32557528500EF946B /* BorderedButton.swift */,
+				235995DD255796E400EF946B /* AirportMarkerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		235995AE255759E900EF946B /* DestinationPicker */ = {
+			isa = PBXGroup;
+			children = (
+				235995ED25584F2600EF946B /* View */,
+				235995F425584F4A00EF946B /* ViewModel */,
+			);
+			path = DestinationPicker;
+			sourceTree = "<group>";
+		};
+		235995B1255759F100EF946B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				23599559255629FC00EF946B /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		235995B4255759F800EF946B /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				235995E725584F1800EF946B /* View */,
+				235995EA25584F1E00EF946B /* ViewModel */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		235995D1255765AF00EF946B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				235995D92557883E00EF946B /* AirportAnnotation.swift */,
+				235995CD2557659F00EF946B /* AirportModel.swift */,
+				235995C92557658600EF946B /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		235995D6255783A200EF946B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2359959225574D7000EF946B /* ParameterClosure.swift */,
+				233956AD2558970400231085 /* AviaTalesError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		235995E725584F1800EF946B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23599553255629A800EF946B /* MapViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		235995EA25584F1E00EF946B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				235995E325584F1000EF946B /* MapViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		235995ED25584F2600EF946B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2359951E2556097900EF946B /* DestinationPickerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		235995F425584F4A00EF946B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				235995F025584F4500EF946B /* DestinationPickerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		23BED2742555FC4D0072AC38 = {
 			isa = PBXGroup;
 			children = (
@@ -79,10 +252,14 @@
 		23BED27F2555FC4D0072AC38 /* AviaTales */ = {
 			isa = PBXGroup;
 			children = (
-				23BED2802555FC4D0072AC38 /* AppDelegate.swift */,
-				23BED2822555FC4D0072AC38 /* SceneDelegate.swift */,
-				23BED2842555FC4D0072AC38 /* ViewController.swift */,
-				23BED2862555FC4D0072AC38 /* Main.storyboard */,
+				233956BF2558B87200231085 /* ApplicationLayer */,
+				2359958F25574D0600EF946B /* Networking */,
+				23599571255749E600EF946B /* Coordinators */,
+				2359958C25574CDD00EF946B /* Controllers */,
+				235995A72557528F00EF946B /* Views */,
+				235995D1255765AF00EF946B /* Models */,
+				235995682557490300EF946B /* Extensions */,
+				235995D6255783A200EF946B /* Helpers */,
 				23BED2892555FC520072AC38 /* Assets.xcassets */,
 				23BED28B2555FC520072AC38 /* LaunchScreen.storyboard */,
 				23BED28E2555FC520072AC38 /* Info.plist */,
@@ -182,7 +359,6 @@
 			files = (
 				23BED28D2555FC520072AC38 /* LaunchScreen.storyboard in Resources */,
 				23BED28A2555FC520072AC38 /* Assets.xcassets in Resources */,
-				23BED2882555FC4D0072AC38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +376,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23BED2852555FC4D0072AC38 /* ViewController.swift in Sources */,
+				2359952D25561F0A00EF946B /* String+Extensions.swift in Sources */,
+				235995CA2557658600EF946B /* Location.swift in Sources */,
+				2359951F2556097900EF946B /* DestinationPickerViewController.swift in Sources */,
+				235995CE2557659F00EF946B /* AirportModel.swift in Sources */,
+				23BED2852555FC4D0072AC38 /* ApplicationCoordinator.swift in Sources */,
+				23599527255615EF00EF946B /* NetworkService.swift in Sources */,
+				2359954A255623B900EF946B /* CGFloat+Extensions.swift in Sources */,
+				235995DA2557883E00EF946B /* AirportAnnotation.swift in Sources */,
+				2359955A255629FC00EF946B /* BaseViewController.swift in Sources */,
+				233956B22558AA6E00231085 /* DescriptionLabel.swift in Sources */,
+				235995E425584F1000EF946B /* MapViewModel.swift in Sources */,
+				235995A42557528500EF946B /* BorderedButton.swift in Sources */,
+				233956BC2558B6E800231085 /* UrlFactory.swift in Sources */,
+				235995DE255796E400EF946B /* AirportMarkerView.swift in Sources */,
+				2359959725574E3300EF946B /* ModuleFactory.swift in Sources */,
 				23BED2812555FC4D0072AC38 /* AppDelegate.swift in Sources */,
-				23BED2832555FC4D0072AC38 /* SceneDelegate.swift in Sources */,
+				233956B62558B0EF00231085 /* UIImage+Extensions.swift in Sources */,
+				2359957525574A1D00EF946B /* Presentable.swift in Sources */,
+				233956AE2558970400231085 /* AviaTalesError.swift in Sources */,
+				235995FC2558738B00EF946B /* BorderedTextField.swift in Sources */,
+				2359959325574D7000EF946B /* ParameterClosure.swift in Sources */,
+				235995F125584F4500EF946B /* DestinationPickerViewModel.swift in Sources */,
+				23599554255629A800EF946B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +421,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		23BED2862555FC4D0072AC38 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23BED2872555FC4D0072AC38 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		23BED28B2555FC520072AC38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -365,6 +553,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49X2HPMU69;
 				INFOPLIST_FILE = AviaTales/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +572,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49X2HPMU69;
 				INFOPLIST_FILE = AviaTales/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
